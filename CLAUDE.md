@@ -407,3 +407,7 @@ $env:RUST_LOG="debug"; ./clean_run_windows.bat
 
 **Whisper Integration**:
 - [frontend/src-tauri/src/whisper_engine/whisper_engine.rs](frontend/src-tauri/src/whisper_engine/whisper_engine.rs) - Whisper model management and transcription
+
+## Decision records
+
+- **Decision records:** when a decision settles — an approach chosen over alternatives, a constraint accepted, something deliberately not done — record it as a why record in `docs/decisions/` using the `capture-decision` skill ([`.claude/skills/capture-decision/SKILL.md`](.claude/skills/capture-decision/SKILL.md)). One decision, one file, a minute of writing.
