@@ -77,3 +77,5 @@ experiments/
 target/
 
 frontend/src-tauri/binaries/
+# Attrica: local recall log written by the why hook
+.attrica/
